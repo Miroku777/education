@@ -1,0 +1,5 @@
+mode: set
+github.com/uriy/myprojectGO/practics/task_for_topic1.13-CodeQuality/task1/main.go:11.14,13.2 0 0
+github.com/uriy/myprojectGO/practics/task_for_topic1.13-CodeQuality/task1/main.go:15.44,16.12 1 1
+github.com/uriy/myprojectGO/practics/task_for_topic1.13-CodeQuality/task1/main.go:16.12,18.3 1 1
+github.com/uriy/myprojectGO/practics/task_for_topic1.13-CodeQuality/task1/main.go:19.2,19.19 1 1

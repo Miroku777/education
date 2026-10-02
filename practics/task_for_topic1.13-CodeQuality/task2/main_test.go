@@ -9,6 +9,8 @@ func TestSumAll(t *testing.T) {
 		want int
 	}{
 		{name: "Первый тест", line: []int{1, 2, 3, 4, 5, 6, 7, 8, 9}, want: 45},
+		{name: "Второй тест", line: []int{1, 2, 3}, want: 6},
+		{name: "Третий тест", line: []int{10, -2, 4, 7}, want: 19},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

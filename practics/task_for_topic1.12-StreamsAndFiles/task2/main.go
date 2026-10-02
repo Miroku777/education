@@ -29,5 +29,4 @@ func main() {
 		}
 		f.WriteString("\n")
 	}
-	os.Remove("./combined.txt")
 }

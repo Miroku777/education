@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package user;
+
+option go_package = "./user";
+
+message AuthRequest {
+    string email = 1;
+    string password = 2;
+}
+
+message AuthRosponse {
+    string answer = 1; //yes | no
+}
+
+service AuthService {
+    rpc CheckUserCredo(AuthRequest) returns (AuthRosponse);
+}
